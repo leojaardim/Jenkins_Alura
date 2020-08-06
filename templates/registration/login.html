@@ -2,7 +2,6 @@
 {% load bootstrap%}
 {% load widget_tweaks %}
 {% load static %}
-{% load staticfiles %}
 
 
 {% block extrastylesheets %}
@@ -23,7 +22,7 @@
     </div>
         {% render_field form.username class="form-control " placeholder='Login' %}
         {% render_field form.password class="form-control " placeholder='Senha' %}
-      <button class="btn btn-lg btn-outline-success btn-block" type="submit">Entrar</button>
+      <button class="btn btn-lg btn-outline-success btn-block" type="submit">Login</button>
     </form>
     </div>
 {% endblock  %}
